@@ -57,7 +57,7 @@
 
         combo_escape {
             bindings = <&kp ESCAPE>;
-            key-positions = <11 12>;
+            key-positions = <0 1>;
         };
     };
 
