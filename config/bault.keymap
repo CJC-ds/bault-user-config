@@ -23,14 +23,14 @@
         align_window_left: align_window_left {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_WIN &kp LEFT>;
+            bindings = <&kp LG(LEFT)>;
             label = "ALIGN_WINDOW_LEFT";
         };
 
         align_window_right: align_window_right {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_WIN &kp RIGHT_ARROW>;
+            bindings = <&kp LG(RIGHT_ARROW)>;
             label = "ALIGN_WINDOW_RIGHT";
         };
 
